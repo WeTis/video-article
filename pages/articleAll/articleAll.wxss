@@ -1,0 +1,67 @@
+/* pages/articleAll/articleAll.wxss */
+.article{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+.article-list{
+  width: 100%;
+  height: 100%;
+}
+.bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.article-dec{
+   position: absolute;
+   bottom: 40rpx;
+}
+.title{
+  padding: 20rpx;
+}
+.title text{
+  color: #fff;
+  padding: 0 20rpx;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50rpx;
+}
+.avaImg{
+  width: 120rpx;
+  height: 120rpx;
+  padding: 10rpx;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 20rpx;
+}
+.avaImg image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.name{
+  flex: 1;
+  font-size: 14px;
+  color: #fff;
+}
+.source{
+  flex: 2;
+  font-size: 14px;
+  color: #fff;
+  padding-right: 20rpx;
+}

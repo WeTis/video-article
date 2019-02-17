@@ -1,0 +1,26 @@
+<view class='container article'>
+  
+   <view wx:for="{{8}}" class='article-list'>
+     <image src='../../img/1.jpg' class='bg'></image>
+     <view class='article-dec'>
+       <view class='title'>
+         <text>《寿司之神》是关于三星厨师小野二郎毕生追求创造完美寿司的历程的纪录片</text>
+       </view>
+       <view class='bottom'>
+         <view class='head-img'>
+         <view class='avaImg'>
+           <image src='../../img/ava.jpg'></image>
+         </view>
+          
+          <text class='name'>witin</text>
+          <view class='bottom-dec'>
+          <text>6月15日 17:46 来自领域：经济</text>
+        </view>
+        
+        </view>
+       </view>
+       
+     </view>
+   </view>
+  
+</view>

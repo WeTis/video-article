@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/articleAll/articleAll",
+    "pages/article/article",
+    "pages/video/video",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频"
+      },
+      {
+        "pagePath": "pages/article/article",
+        "text": "文章"
+      },
+      {
+        "pagePath": "pages/articleAll/articleAll",
+        "text": "全屏"
+      }
+    ]
+  }
+}
