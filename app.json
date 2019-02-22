@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/articleAll/articleAll",
     "pages/article/article",
+    "pages/articleAll/articleAll",
     "pages/video/video",
     "pages/index/index"
     
@@ -21,10 +21,6 @@
       {
         "pagePath": "pages/article/article",
         "text": "文章"
-      },
-      {
-        "pagePath": "pages/articleAll/articleAll",
-        "text": "全屏"
       }
     ]
   }

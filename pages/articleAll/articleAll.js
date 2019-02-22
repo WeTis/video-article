@@ -5,14 +5,29 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    list: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.request({
+      url: 'http://192.168.0.179:8080/imooc/lib/getArticleList.php',
+      method: 'POST',
+      header: {
+        'content-type': 'application/json'
+      },
+      data: {
+        page: 2
+      },
+      success: (res) => {
+        console.log(res.data.params);
+        this.setData({
+          list: res.data.params
+        })
+      }
+    })
   },
 
   /**

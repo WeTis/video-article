@@ -13,6 +13,7 @@
 .article{
   background-color: #e3e6eb;
   overflow: hidden;
+  height: auto;
 }
 .bg{
   position: absolute;
@@ -81,4 +82,39 @@
   padding-left: 30rpx;
   font-size: 16px;
   color: #444;
+}
+.loading{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.loading image{
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+  animation: mymove 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mymove
+{
+from {transform: rotate(0deg);}
+to {transform: rotate(360deg);}
+}
+
+
+.loading text{
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 10px;
+  vertical-align: text-top;
+}
+.changeTab{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  background-color: red;
+  bottom: 20rpx;
+  right: 20rpx;
 }
